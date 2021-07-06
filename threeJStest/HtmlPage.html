@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Breakout 3D</title>
+</head>
+<body>
+    <!--Threejs Files-->
+    <script src="ThreeJS/three.min.js"></script>
+    <script src="ThreeJS/dat.gui.min.js"></script>
+    <script src="ThreeJS/OrbitControls.js"></script>
+    <!--SpriteText.js from https://raw.githack.com/anhr/commonNodeJS/master/SpriteText/SpriteText.js -->
+    <script src="ThreeJS/SpriteText.js"></script>
+    <!--Background Music-->
+    <audio id="gameSoundtrack">
+        <source src="Sounds/80s-motivational-chiptune.mp3" type="audio/mp3" />
+    </audio>
+    <!--Wait File called here to allow for global use-->
+    <script src="Framework/Wait.js"></script>
+    <!--Class Files-->
+    <script src="Classes/Background.js"></script>
+    <script src="Classes/Ball.js"></script>
+    <script src="Classes/Brick.js"></script>
+    <script src="Classes/Paddle.js"></script>
+    <script src="Classes/Powerup.js"></script>
+    <!--Game Framework Files-->
+    <script src="Framework/LoadContent.js"></script>
+    <script src="Framework/Levels.js"></script>
+    <script src="Framework/Update.js"></script>
+</body>
+</html>
